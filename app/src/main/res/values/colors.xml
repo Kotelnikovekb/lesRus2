@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#689DFD</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="intro_text_title">#000000</color>
+    <color name="intro_description_gray">#656565</color>
+
+    <color name="intro_gradient_start">#689DFD</color>
+    <color name="intro_gradient_end">#6200EE</color>
+    <color name="intro_text_gray">#c0c0c0</color>
+    <color name="colorBacground">#EFEFEF</color>
+
+    <color name="oval_color_green">#008577</color>
+    <color name="oval_color_pink">#D81B60</color>
+
+    <color name="backgroundRed">#77FF1744</color>
+    <color name="transparentColor">#00FFFFFF</color>
+    <color name="gray">#B3B3B3</color>
+    <color name="backgroundGreen">#97F8A7</color>
+    <color name="status_new">#52BDFF</color>
+    <color name="status_on_work">#F4511E</color>
+    <color name="status_done">#008577</color>
+    <color name="transpendent">#00111111</color>
+    <color name="rating_bar">#008577</color>
+    <color name="bacgroungImage">#CE000000</color>
+    <color name="list_spiner">#3E83DE</color>
+    <color name="error">#ff0900</color>
+    <color name="new_r">#00897B</color>
+    <color name="background">#DCFFBE</color>
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+    <color name="rating5">#8BC34A</color>
+    <color name="rating3">#FFC107</color>
+    <color name="rating1">#FF5722</color>
+</resources>
