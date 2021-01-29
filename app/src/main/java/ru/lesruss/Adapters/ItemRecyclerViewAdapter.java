@@ -68,7 +68,7 @@ public class ItemRecyclerViewAdapter extends RecyclerView.Adapter<ItemRecyclerVi
                 ItemModel itemModel=(ItemModel) arrayList.get(position);
                 holder.itemLabel.setText(itemModel.getTitle());
                 if (itemModel.getBackground()!=null){
-                    holder.icon.setImageBitmap(itemModel.getBackground());
+                    holder.cardView.setBackground(itemModel.getBackground());
                 }
                 if (itemModel.getIntent()!=null){
                     holder.cardView.setOnClickListener(new View.OnClickListener() {

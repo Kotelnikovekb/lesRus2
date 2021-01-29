@@ -1,6 +1,7 @@
 package ru.lesruss.Class;
 
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 
 public class CatalogClass {
     private int Id;
@@ -9,9 +10,10 @@ public class CatalogClass {
     private String Name;
     private String Url;
     private String Description;
-    private Bitmap Background;
+    private Drawable Background;
 
-    public CatalogClass(int id, String from, String to, String name, String url, String description, Bitmap background) {
+
+    public CatalogClass(int id, String from, String to, String name, String url, String description, Drawable background) {
         Id = id;
         From = from;
         To = to;
@@ -69,11 +71,11 @@ public class CatalogClass {
         Description = description;
     }
 
-    public Bitmap getBackground() {
+    public Drawable getBackground() {
         return Background;
     }
 
-    public void setBackground(Bitmap background) {
+    public void setBackground(Drawable background) {
         Background = background;
     }
 }

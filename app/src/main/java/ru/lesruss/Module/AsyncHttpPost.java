@@ -33,7 +33,7 @@ public class AsyncHttpPost extends AsyncTask<String, String, String> {
     }
     public AsyncHttpPost(HashMap<String, String> data, String url) {
         mData = data;
-        mUrl= "https://ekb-app.ru/PHP/sendEmail.php";
+        mUrl= url;
         Log.e("AsyncError","start");
         Log.e("AsyncError",mUrl);
     }

@@ -63,7 +63,7 @@ public class BuyActivity extends AppCompatActivity {
                 data.put("contact", contact.getText().toString());
                 data.put("name", name.getText().toString());
 
-                AsyncHttpPost asyncHttpPost = new AsyncHttpPost(data,"");
+                AsyncHttpPost asyncHttpPost = new AsyncHttpPost(data,"https://ekb-app.ru/PHP/sendEmail.php");
                 asyncHttpPost.setListener(new AsyncHttpPost.Listener() {
                     @Override
                     public void onResult(String result) {

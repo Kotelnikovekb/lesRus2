@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     public final static String SETTINGS_S="SETTINGS_S";
     public final static String FIRS_START_S="FIRS_START_S";
+    public final static String BASKET_S="BASKET_S";
+
     RecyclerView recyclerView;
     SectionRecyclerViewAdapter adapter;
     ArrayList<SectionModel> sectionModelArrayList = new ArrayList<>();
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         ArrayList<ItemModel> itemArrayList = new ArrayList<>();
         itemArrayList.addAll(DATA.getMain(this));
-        sectionModelArrayList.add(new SectionModel("" , itemArrayList,LINEAR_VERTICAL,null));
+        sectionModelArrayList.add(new SectionModel("" , itemArrayList,GRID,null));
 
         adapter = new SectionRecyclerViewAdapter(this, sectionModelArrayList);
         recyclerView.setAdapter(adapter);

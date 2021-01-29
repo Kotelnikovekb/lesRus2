@@ -6,11 +6,11 @@ import android.graphics.drawable.Drawable;
 
 public class ItemModel {
     private String Title;
-    private Bitmap Background;
+    private Drawable Background;
     private Intent Intent;
 
 
-    public ItemModel(String title, Bitmap background, android.content.Intent intent) {
+    public ItemModel(String title, Drawable background, android.content.Intent intent) {
         Title = title;
         Background = background;
         Intent = intent;
@@ -24,11 +24,11 @@ public class ItemModel {
         Title = title;
     }
 
-    public Bitmap getBackground() {
+    public Drawable getBackground() {
         return Background;
     }
 
-    public void setBackground(Bitmap background) {
+    public void setBackground(Drawable background) {
         Background = background;
     }
 

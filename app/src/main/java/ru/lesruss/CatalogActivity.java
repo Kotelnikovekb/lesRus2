@@ -22,7 +22,7 @@ import ru.lesruss.Module.SharedVoid;
 
 import static ru.lesruss.Enum.RecyclerViewType.LINEAR_VERTICAL;
 
-public class CatalogActivity extends AppCompatActivity {
+public class  CatalogActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     SectionRecyclerViewAdapter adapter;
     ArrayList<SectionModel> sectionModelArrayList = new ArrayList<>();

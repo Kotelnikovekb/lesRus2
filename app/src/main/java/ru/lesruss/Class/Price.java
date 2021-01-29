@@ -1,16 +1,30 @@
 package ru.lesruss.Class;
 
 public class Price {
+    private int Id;
     private String Name;
     private String Description;
-    private String Cost;
+    private int Cost;
     private String Page;
+    private String Unit;
+    private String Title;
 
-    public Price(String name, String description, String cost, String page) {
+    public Price(int id, String name, String description, int cost, String page, String unit, String title) {
+        Id = id;
         Name = name;
         Description = description;
         Cost = cost;
         Page = page;
+        Unit = unit;
+        Title = title;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
     }
 
     public String getName() {
@@ -29,11 +43,11 @@ public class Price {
         Description = description;
     }
 
-    public String getCost() {
+    public int getCost() {
         return Cost;
     }
 
-    public void setCost(String cost) {
+    public void setCost(int cost) {
         Cost = cost;
     }
 
@@ -43,5 +57,21 @@ public class Price {
 
     public void setPage(String page) {
         Page = page;
+    }
+
+    public String getUnit() {
+        return Unit;
+    }
+
+    public void setUnit(String unit) {
+        Unit = unit;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
     }
 }
